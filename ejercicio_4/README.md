@@ -1,4 +1,4 @@
-````md
+
 # Parser CYK para Calculadora
 
 Se implementó un parser utilizando el algoritmo **CYK** para reconocer expresiones aritméticas simples de una calculadora, junto con un parser predictivo para comparar su rendimiento.
@@ -35,6 +35,3 @@ Se observa que el parser CYK tarda más tiempo en procesar las expresiones confo
 ## Conclusión
 
 El parser predictivo presenta mejor rendimiento que el algoritmo CYK para este tipo de expresiones, ya que CYK requiere más operaciones al analizar la entrada.
-
-```
-```
