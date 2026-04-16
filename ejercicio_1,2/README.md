@@ -20,11 +20,6 @@ UPDATE usuarios SET edad:21 WHERE nombre="Samuel"
 DELETE usuarios WHERE edad=20
 ```
 
-## Tecnologías usadas
-
-* Python 3
-* ANTLR4
-* antlr4-python3-runtime
 
 ## Ejecución
 
