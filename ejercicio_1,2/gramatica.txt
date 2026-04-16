@@ -1,0 +1,18 @@
+programa ::= sentencia+
+
+sentencia ::= insertar
+            | consultar
+            | actualizar
+            | eliminar
+
+insertar ::= "INSERT" ID "{" atributo ("," atributo)* "}"
+
+consultar ::= "FIND" ID [donde]
+
+actualizar ::= "UPDATE" ID "SET" atributo [donde]
+
+eliminar ::= "DELETE" ID [donde]
+
+donde ::= "WHERE" ID "=" VALOR
+
+atributo ::= ID ":" VALOR
